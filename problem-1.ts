@@ -1,11 +1,10 @@
-
-// function get the sum of array 
-const sumArray = (number: number[]): number => {
+// function get the sum of array
+const sumArray = (numbers: number[]): number => {
   let sum = 0;
-  for (let num of number) {
+  for (let num of numbers) {
     sum += num;
   }
-  // get the number of sum 
+  // get the number of sum
   return sum;
 };
 

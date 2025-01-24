@@ -19,7 +19,7 @@ function calculateShapeArea(shape: Circle | Rectangle): number {
 }
 
 const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
-console.log(circleArea);
+console.log(+circleArea.toFixed(2));
 
 const rectangleArea = calculateShapeArea({
   shape: "rectangle",

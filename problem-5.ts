@@ -1,3 +1,4 @@
+// function that check parameter are object and property name
 function getProperty<Obj, property extends keyof Obj>(
   obj: Obj,
   key: property
